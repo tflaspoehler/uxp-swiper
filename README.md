@@ -93,6 +93,27 @@ In order to make these, I would need the following in Sitecore:
 - a "Slide" component would need to go inside the "Swiper" component placeholder
 - a "Slide" component's placeholder would need to except a "Seciton" component
 
+The only HTML elemets needed for those are the following:
+```
+<div class="swiper-container hero-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="swiper-slide">{Content}</div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-slide">{Content}</div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-slide">{Content}</div>
+        </div>
+    </div>
+</div>
+
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+```
+
 That setup with the above breakpoint inputs for the new swiper component, would allow us to handle every situation on the demo. I used HTML from the sites that are already sections inside grid columns. So with this setup I can directly move that content into the new swiper / slides and they would work and look correct.
 
 ... and then Ryan would have to build out the React stuff to render the content and initiate the swiper and respond to screen resizes (hopefully built in to the React + Swiper library).
