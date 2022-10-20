@@ -6,7 +6,6 @@
 .swiper-slide {
     height: auto;
     box-sizing: border-box;
-    padding-bottom: 6px;
 }
 .imc-gallery__item.swiper-slide {
     padding-bottom: 6px;
