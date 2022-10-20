@@ -87,4 +87,8 @@ breakpoints: {
 });
 ```
 
-to make these I would have a "Swiper" component that can be placed inside a "Section" component's placeholder. Then a "Slide" component would need to go inside the "Swiper" component placeholder. Then the "Slide" component's placeholder would need to except a "Seciton" component. The the above inputs on the swiper and this setup in Sitecore, we can build whatever content is necessary. I used HTML from the sites that are already sections inside grid columns. That way I could build a swiper like a grid and move hte content once these are built.
+In order to make these: 
+- a "Swiper" component that can be placed inside a "Section" component's placeholder with mobile / tablet / desktop slidesPerView and spaceBetween floating-point inputs (ideally a className as well).
+- a "Slide" component would need to go inside the "Swiper" component placeholder
+- a "Slide" component's placeholder would need to except a "Seciton" component
+That setup with the above breakpoint inputs for the new swiper component, would allow us to handle every situation on the demo. I used HTML from the sites that are already sections inside grid columns. So with this setup I can directly move that content into the new swiper / slides and they would work and look correct.
