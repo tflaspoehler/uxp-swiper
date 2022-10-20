@@ -89,7 +89,7 @@ breakpoints: {
 
 
 In order to make these, I would need the following in Sitecore: 
-- a "Swiper" component that can be placed inside a "Section" component's placeholder with mobile / tablet / desktop slidesPerView and spaceBetween floating-point inputs (ideally a className as well).
+- a "Swiper" component that can be placed inside a "Section" component's placeholder. The "Swiper" component would need inputs for all 3 mobile / tablet / desktop slidesPerView and spaceBetween as floating-point inputs. I would also like a unique className. And possibly a checkbox for the "loop" option or any other options that may arise. I would rather keep it simple to those.
 - a "Slide" component would need to go inside the "Swiper" component placeholder
 - a "Slide" component's placeholder would need to except a "Seciton" component
 
