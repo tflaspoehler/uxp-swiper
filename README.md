@@ -5,39 +5,6 @@
 This took as much time to build as explain what I wanted. I essentially copy and pasted section components on our live site and placed them into swiper slides. Then I linked to the **SWIPERJS** CDN css and js files (I also included **AtlantaMarket.com**'s css files so things display correctly).
 
 
-## Hero Swiper
-
-This is identical to the others on the page except I put it in a section that fills the width of the page and make it only show 1 slide per view no matter the screen size. The pagination is styled differently with some basic CSS to make it overlap the slides. The prev and next arrows are just off the screen so they could be repositioned/restyled if needed.
-
-Here's the JS for it:
-```
-const hero_swiper = new Swiper('.swiper-container.hero-swiper', {
-// Optional parameters
-direction: 'horizontal',
-loop: false,
-
-// Navigation arrows
-navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-    enabled: true,
-},
-
-// If we need pagination
-pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-},
-
-breakpoints: {
-    slidesPerView: 1,
-    spaceBetween: 0,
-},
-
-
-});
-```
-
 
 ## Content Swipers
 
@@ -86,6 +53,40 @@ breakpoints: {
 
 });
 ```
+
+## Hero Swiper
+
+This is identical to the others on the page except I put it in a section that fills the width of the page and make it only show 1 slide per view no matter the screen size. The pagination is styled differently with some basic CSS to make it overlap the slides. The prev and next arrows are just off the screen so they could be repositioned/restyled if needed.
+
+Here's the JS for it:
+```
+const hero_swiper = new Swiper('.swiper-container.hero-swiper', {
+// Optional parameters
+direction: 'horizontal',
+loop: false,
+
+// Navigation arrows
+navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    enabled: true,
+},
+
+// If we need pagination
+pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+},
+
+breakpoints: {
+    slidesPerView: 1,
+    spaceBetween: 0,
+},
+
+
+});
+```
+
 
 In order to make these, I would need the following in Sitecore: 
 - a "Swiper" component that can be placed inside a "Section" component's placeholder with mobile / tablet / desktop slidesPerView and spaceBetween floating-point inputs (ideally a className as well).

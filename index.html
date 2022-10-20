@@ -84,129 +84,276 @@
 
         <section class="imc-site-wrapper">
 
-            <!------------------------->
-            <!-- Hero Swiper Section -->
-            <!------------------------->
 
-            <div class="section-wrapper imc-section--neutral-heaviest">
-                <section class="imc-section imc-section--relative viewport-full-width imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+            <!---------------------------->
+            <!-- Generic Swiper Section -->
+            <!---------------------------->
+            <div class="section-wrapper imc-section--">
+                <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-jumbo imc-section--padded-bottom-jumbo imc-section--padded-left-xlarge imc-section--padded-right-xlarge">
                     <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none">
                         <div class="imc-section--content-with-image">
                             <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
-                                    <div class="swiper-container hero-swiper">
+                                <h2 style="text-align: center;">
+                                    <strong>Generic Wireframe</strong>
+                                </h2>
+                                <p><br />I need the UX done for the pagination and left/right navigation since the dev work should be agnostic of the content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-wrapper imc-section--">
+                <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-xlarge imc-section--padded-right-xlarge">
+                    <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none">
+                        <div class="imc-section--content-with-image">
+                            <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
+
+                                    <div class="swiper-container first-swiper">
                                         <!-- Additional required wrapper -->
-                                        <div class="swiper-wrapper">
+                                        <div class="swiper-wrapper amc-grid amc-grid-border-radius imc-gallery--align-flex-stretch">
                                             <!-- Slides -->
 
                                             <!------------->
                                             <!-- Slide 1 -->
                                             <!------------->
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide imc-gallery__item">
                                                 <!-- UXP Content -->
-                                                <div class="section-wrapper imc-section--"><section class="imc-section imc-section--relative imc-content--center imc-section--  image-wrapper-450 imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none imc-section--padded-top-desktop-none imc-section--padded-bottom-desktop-none imc-section--padded-left-desktop-none imc-section--padded-right-desktop-none"><div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none imc-section--margin-top-desktop-none imc-section--margin-bottom-desktop-none  "><div class="imc-section--content-with-image"><div class="imc-section--inner-content imc-section--align-  imc-section-- imc-content--center-mobile"><div class="imc-rich-text"><video playsinline="" autoplay="" muted="" loop="" src="https://www.americasmart.com/-/media/AmericasMart/Homepage/Videos/AtlantaOverhead.mp4" poster="https://www.americasmart.com/-/media/AmericasMart/Homepage/2022-1/AtlantaOverhead.png" class="video-background"></video>
-                                                    <div class="video-overlay"></div>
-                                                    <div class="video-text-wrapper">
-                                                    <div class="video-text">
-                                                    <p><img alt="" src="https://www.americasmart.com/-/media/Channel-Logos/AmericasMart/AmericasMartWhite.svg" style="width: 400px; max-width: 100%;"></p>
-                                                    <p><span class="imc-heading--kilo"><br>
-                                                    <span class="imc-type--color-basic-white">The World’s Largest Collection of Wholesale Gift, Décor, and Apparel Showrooms</span></span>
-                                                    </p>
-                                                    <p><span class="imc-heading--kilo"><br></span></p>
-                                                    <a href="/Markets/Market-Dates-and-Hours" class="imc-button hero-button"><span class="imc-type--color-primary-heavy">Register for a Market</span></a>
-                                                    </div>
-                                                    </div>
-                                                    <style>
-                                                    .imc-button.hero-button {
-                                                        background: #ffffff;
-                                                        border:  2px solid #ffffff;
-                                                        border-radius: 5px;
-                                                    }
-                                                    .imc-button.hero-button:hover {
-                                                        background: #014462;
-                                                    }
-                                                    .imc-button.hero-button:hover > span {
-                                                        color: #ffffff;
-                                                    }
-                                                    .video-background {
-                                                        position: absolute;
-                                                        width: 100%;
-                                                        height: 100%;
-                                                        object-fit: cover;
-                                                        width: 100%;
-                                                        top: 50%;
-                                                        left: 50%;
-                                                        transform: translate(-50%, -50%);
-                                                    }
-                                                    .video-overlay {
-                                                        position: absolute;
-                                                        left: 0;
-                                                        top: 0;
-                                                        right: 0;
-                                                        bottom: 0;
-                                                        background-image: linear-gradient(90deg, #00000099, transparent); 
-                                                    }
-                                                    .video-text {
-                                                        position: absolute;
-                                                        padding: 1.875rem;
-                                                        width: 100%;
-                                                        top: 50%;
-                                                        left: 0;
-                                                        transform: translateY(-50%);
-                                                        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-                                                    }
-                                                    .video-text > p {
-                                                        width: 500px;
-                                                        max-width: 100%;
-                                                    }
-                                                    .video-text-wrapper {
-                                                        position: absolute;
-                                                        height: 100%;
-                                                        max-width: 81.250rem;
-                                                        width: 100%;
-                                                        top: 50%;
-                                                        left: 50%;
-                                                        transform: translate(-50%, -50%);
-                                                    }
-                                                    .image-wrapper-250 .imc-rich-text, .image-wrapper-300 .imc-rich-text, .image-wrapper-350 .imc-rich-text, .image-wrapper-400 .imc-rich-text, .image-wrapper-450 .imc-rich-text, .image-wrapper-500 .imc-rich-text, .image-wrapper-550 .imc-rich-text, .image-wrapper-600 .imc-rich-text {
-                                                        width: 100%;
-                                                        height: 100%;
-                                                        overflow: hidden;
-                                                    }
-                                                    @media screen and (max-width: 725px) {
-                                                        .video-background {
-                                                            width: 100%;
-                                                            height: 100%;
-                                                            object-fit: cover;
-                                                        }
-                                                    }
-                                                    </style></div></div></div></div></section></div><!-- End UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
                                             </div>
                                             <!----------------->
                                             <!-- End Slide 1 -->
                                             <!----------------->
 
                                             <!------------->
-                                            <!-- Slide 2 -->
+                                            <!-- Slide 1 -->
                                             <!------------->
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide imc-gallery__item">
                                                 <!-- UXP Content -->
-                                                
-                                                <div class="section-wrapper imc-section--"><section class="imc-section imc-section--relative imc-content--center imc-section--  image-wrapper-450 imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none imc-section--padded-top-desktop-none imc-section--padded-bottom-desktop-none imc-section--padded-left-desktop-none imc-section--padded-right-desktop-none"><div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none imc-section--margin-top-desktop-none imc-section--margin-bottom-desktop-none  "><div class="imc-section--content-with-image"><div class="imc-section--inner-content imc-section--align-  imc-section-- imc-content--center-mobile"><div class="imc-rich-text"><img src="https://www.atlanta-apparel.com/-/media/Atlanta-Apparel/Homepage/2023-01/2023-1-campaign-background-mini.svg" class="video-background" />
-                                                    <div class="video-text-wrapper">
-                                                    <div class="video-text">
-                                                    <p style="text-align: center; width: auto;"><img alt="" src="https://www.atlanta-apparel.com/-/media/Channel-Logos/Atlanta-Apparel/AA_Logo_2021_WHT_Circle.svg" style="width: 200px; max-width: 100%;"></p>
-                                                    <p style="text-align: center; width: auto;"><span class="imc-heading--kilo"><br>
-                                                    <span class="imc-type--color-basic-white">January 31 – February 4, 2023</span></span>
-                                                    </p>
-                                                    <p><span class="imc-heading--kilo"><br></span></p>
-                                                    <p style="text-align: center; width: auto;"><a href="/Markets/Market-Dates-and-Hours" class="imc-button imc-button--primary-inverted" style="border: 0;"><span class="">Learn More</span></a></p>
-                                                    </div>
-                                                    </div></div></div></div></div></section></div><!-- End UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
                                             </div>
                                             <!----------------->
-                                            <!-- End Slide 2 -->
+                                            <!-- End Slide 1 -->
                                             <!----------------->
-                                            
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide imc-gallery__item">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--" style="background-color: rgba(0, 0, 0, 0.5)">
+                                                    <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                                                        <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none">
+                                                            <div class="imc-section--content-with-image">
+                                                                <div class="imc-section--inner-content imc-section--align-center imc-section-- imc-content--center-mobile">
+                                                                    <div class="imc-rich-text">
+                                                                        <p style="height: 200px;">&nbsp;</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                                <!-- UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
                                         </div>
                                         <!-- If we need pagination -->
                                         <div class="swiper-pagination"></div>
@@ -223,9 +370,15 @@
                 </section>
             </div>
 
-            <!------------------------->
-            <!-- Hero Swiper Section -->
-            <!------------------------->
+            <div class="section-wrapper">
+                <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-jumbo imc-section--padded-left-xlarge imc-section--padded-right-xlarge">
+
+                </section>
+            </div>
+            <!-------------------------------->
+            <!-- END generic Swiper Section -->
+            <!-------------------------------->
+
 
             <!-------------------------->
             <!-- First Swiper Section -->
@@ -236,7 +389,7 @@
                         <div class="imc-section--content-with-image">
                             <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
                                 <h2 style="text-align: center;">
-                                    <strong>Generic Content Swiper</strong>
+                                    <strong>Swiper with Content</strong>
                                 </h2>
                             </div>
                         </div>
@@ -681,7 +834,7 @@
                         <div class="imc-section--content-with-image">
                             <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
                                 <h2 style="text-align: center;">
-                                    <strong>Tablet & Mobile Swiper</strong>
+                                    <strong>Tablet & Mobile Only Swiper</strong>
                                 </h2>
                                 <p style="text-align: center;"><br />The swiping action and navigation / pagination buttons go away on desktop since only 4 columns. This is the default behavior.</p>
                             </div>
@@ -922,7 +1075,178 @@
             <!-------------------------->
             <!-- END 3 Swiper Section -->
             <!-------------------------->
-            
+
+
+            <!------------------------->
+            <!-- Hero Swiper Section -->
+            <!------------------------->
+
+            <div class="section-wrapper imc-section--">
+                <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-jumbo imc-section--padded-bottom-jumbo imc-section--padded-left-xlarge imc-section--padded-right-xlarge">
+                    <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none">
+                        <div class="imc-section--content-with-image">
+                            <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
+                                <h2 style="text-align: center;">
+                                    <strong>Full Width Hero</strong>
+                                </h2>
+                                <p><br />This will fill the width of the page and only have 1 slide per view.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-wrapper imc-section--neutral-heaviest">
+                <section class="imc-section imc-section--relative viewport-full-width imc-content--center imc-section-- imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none">
+                    <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none">
+                        <div class="imc-section--content-with-image">
+                            <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
+                                    <div class="swiper-container hero-swiper">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper">
+                                            <!-- Slides -->
+
+                                            <!------------->
+                                            <!-- Slide 1 -->
+                                            <!------------->
+                                            <div class="swiper-slide">
+                                                <!-- UXP Content -->
+                                                <div class="section-wrapper imc-section--"><section class="imc-section imc-section--relative imc-content--center imc-section--  image-wrapper-450 imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none imc-section--padded-top-desktop-none imc-section--padded-bottom-desktop-none imc-section--padded-left-desktop-none imc-section--padded-right-desktop-none"><div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none imc-section--margin-top-desktop-none imc-section--margin-bottom-desktop-none  "><div class="imc-section--content-with-image"><div class="imc-section--inner-content imc-section--align-  imc-section-- imc-content--center-mobile"><div class="imc-rich-text"><video playsinline="" autoplay="" muted="" loop="" src="https://www.americasmart.com/-/media/AmericasMart/Homepage/Videos/AtlantaOverhead.mp4" poster="https://www.americasmart.com/-/media/AmericasMart/Homepage/2022-1/AtlantaOverhead.png" class="video-background"></video>
+                                                    <div class="video-overlay"></div>
+                                                    <div class="video-text-wrapper">
+                                                    <div class="video-text">
+                                                    <p><img alt="" src="https://www.americasmart.com/-/media/Channel-Logos/AmericasMart/AmericasMartWhite.svg" style="width: 400px; max-width: 100%;"></p>
+                                                    <p><span class="imc-heading--kilo"><br>
+                                                    <span class="imc-type--color-basic-white">The World’s Largest Collection of Wholesale Gift, Décor, and Apparel Showrooms</span></span>
+                                                    </p>
+                                                    <p><span class="imc-heading--kilo"><br></span></p>
+                                                    <a href="/Markets/Market-Dates-and-Hours" class="imc-button hero-button"><span class="imc-type--color-primary-heavy">Register for a Market</span></a>
+                                                    </div>
+                                                    </div>
+                                                    <style>
+                                                    .imc-button.hero-button {
+                                                        background: #ffffff;
+                                                        border:  2px solid #ffffff;
+                                                        border-radius: 5px;
+                                                    }
+                                                    .imc-button.hero-button:hover {
+                                                        background: #014462;
+                                                    }
+                                                    .imc-button.hero-button:hover > span {
+                                                        color: #ffffff;
+                                                    }
+                                                    .video-background {
+                                                        position: absolute;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        object-fit: cover;
+                                                        width: 100%;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                    }
+                                                    .video-overlay {
+                                                        position: absolute;
+                                                        left: 0;
+                                                        top: 0;
+                                                        right: 0;
+                                                        bottom: 0;
+                                                        background-image: linear-gradient(90deg, #00000099, transparent); 
+                                                    }
+                                                    .video-text {
+                                                        position: absolute;
+                                                        padding: 1.875rem;
+                                                        width: 100%;
+                                                        top: 50%;
+                                                        left: 0;
+                                                        transform: translateY(-50%);
+                                                        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+                                                    }
+                                                    .video-text > p {
+                                                        width: 500px;
+                                                        max-width: 100%;
+                                                    }
+                                                    .video-text-wrapper {
+                                                        position: absolute;
+                                                        height: 100%;
+                                                        max-width: 81.250rem;
+                                                        width: 100%;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                    }
+                                                    .image-wrapper-250 .imc-rich-text, .image-wrapper-300 .imc-rich-text, .image-wrapper-350 .imc-rich-text, .image-wrapper-400 .imc-rich-text, .image-wrapper-450 .imc-rich-text, .image-wrapper-500 .imc-rich-text, .image-wrapper-550 .imc-rich-text, .image-wrapper-600 .imc-rich-text {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        overflow: hidden;
+                                                    }
+                                                    @media screen and (max-width: 725px) {
+                                                        .video-background {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            object-fit: cover;
+                                                        }
+                                                    }
+                                                    </style></div></div></div></div></section></div><!-- End UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 1 -->
+                                            <!----------------->
+
+                                            <!------------->
+                                            <!-- Slide 2 -->
+                                            <!------------->
+                                            <div class="swiper-slide">
+                                                <!-- UXP Content -->
+                                                
+                                                <div class="section-wrapper imc-section--"><section class="imc-section imc-section--relative imc-content--center imc-section--  image-wrapper-450 imc-section--padded-top-none imc-section--padded-bottom-none imc-section--padded-left-none imc-section--padded-right-none imc-section--padded-top-desktop-none imc-section--padded-bottom-desktop-none imc-section--padded-left-desktop-none imc-section--padded-right-desktop-none"><div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none imc-section--margin-right-none imc-section--margin-top-desktop-none imc-section--margin-bottom-desktop-none  "><div class="imc-section--content-with-image"><div class="imc-section--inner-content imc-section--align-  imc-section-- imc-content--center-mobile"><div class="imc-rich-text"><img src="https://www.atlanta-apparel.com/-/media/Atlanta-Apparel/Homepage/2023-01/2023-1-campaign-background-mini.svg" class="video-background" />
+                                                    <div class="video-text-wrapper">
+                                                    <div class="video-text">
+                                                    <p style="text-align: center; width: auto;"><img alt="" src="https://www.atlanta-apparel.com/-/media/Channel-Logos/Atlanta-Apparel/AA_Logo_2021_WHT_Circle.svg" style="width: 200px; max-width: 100%;"></p>
+                                                    <p style="text-align: center; width: auto;"><span class="imc-heading--kilo"><br>
+                                                    <span class="imc-type--color-basic-white">January 31 – February 4, 2023</span></span>
+                                                    </p>
+                                                    <p><span class="imc-heading--kilo"><br></span></p>
+                                                    <p style="text-align: center; width: auto;"><a href="/Markets/Market-Dates-and-Hours" class="imc-button imc-button--primary-inverted" style="border: 0;"><span class="">Learn More</span></a></p>
+                                                    </div>
+                                                    </div></div></div></div></div></section></div><!-- End UXP Content -->
+                                            </div>
+                                            <!----------------->
+                                            <!-- End Slide 2 -->
+                                            <!----------------->
+                                            
+                                        </div>
+                                        <!-- If we need pagination -->
+                                        <div class="swiper-pagination"></div>
+                            
+                                        <!-- If we need navigation buttons -->
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                            
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-wrapper imc-section--">
+                <section class="imc-section imc-section--relative imc-content--center imc-section-- imc-section--padded-top-jumbo imc-section--padded-bottom-jumbo imc-section--padded-left-xlarge imc-section--padded-right-xlarge">
+                    <div class="imc-section--margin-top-none imc-section--margin-bottom-none imc-section--margin-left-none">
+                        <div class="imc-section--content-with-image">
+                            <div class="imc-section--inner-content imc-section--align- imc-section-- imc-content--center-mobile">
+                                <br />I didn't add a footer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!------------------------->
+            <!-- Hero Swiper Section -->
+            <!------------------------->
+
         </section>
         <script src="swiper.js"></script>
     </body>
